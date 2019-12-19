@@ -1,0 +1,52 @@
+{
+    "menu-item#category-informatica": {
+      "props": {
+        "id": "menu-item-category-informatica",
+        "type": "category",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "categoryId": 11,
+          "noFollow": true,
+          "tagTitle": "Informatica",
+          "text": "Informatica"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#category-informatica"
+      ]
+    },
+  
+    "vtex.menu@2.x:submenu#category-informatica": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-informatica"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-informatica": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#category-informatica-notebooks"
+      ]
+    },
+  
+    "menu-item#category-informatica-notebooks": {
+      "props": {
+        "id": "menu-item-category-informatica-notebooks",
+        "type": "category",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {        
+          "categoryId": 11,         
+          "tagTitle": "Notebooks",
+          "text": "Notebooks"
+        }
+      }
+    }
+  
+    }

@@ -1,0 +1,174 @@
+{
+  "menu-item#category-imagensonido": {
+    "props": {
+      "id": "menu-item-category-imagensonido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/imagensonido/",
+        "noFollow": true,
+        "tagTitle": "Imagen y Sonido",
+        "text": "Imagen y Sonido"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-imagensonido"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#category-imagensonido": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-imagensonido"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-imagensonido": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-imagensonido-audiohogar",
+      "menu-item#category-imagensonido-auriculares",
+      "menu-item#category-imagensonido-camarasdigitales",
+      "menu-item#category-imagensonido-consolas",
+      "menu-item#category-imagensonido-hometheaters",
+      "menu-item#category-imagensonido-smarttv",
+      "menu-item#category-imagensonido-grabadores",
+      "menu-item#category-imagensonido-soportestv",
+      "menu-item#category-imagensonido-tvledlcd"
+    ]
+  },
+
+  "menu-item#category-imagensonido-audiohogar": {
+    "props": {
+      "id": "menu-item-category-imagensonido-audiohogar",
+      "type": "category",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {        
+        "categoryId": 1,         
+        "tagTitle": "Audio Hogar",
+        "text": "Audio Hogar"
+      }
+    }
+  },
+
+  "menu-item#category-imagensonido-auriculares": {
+    "props": {
+      "id": "menu-item-category-imagensonido-auriculares",
+      "type": "category",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {        
+        "categoryId": 2,         
+        "tagTitle": "Auriculares",
+        "text": "Auriculares"
+      }
+    }
+  },
+
+  "menu-item#category-imagensonido-camarasdigitales": {
+    "props": {
+      "id": "menu-item-category-imagensonido-camarasdigitales",
+      "type": "category",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {        
+        "categoryId": 12,         
+        "tagTitle": "Camaras Digitales",
+        "text": "Camaras Digitales"
+      }
+    }
+  },
+
+  "menu-item#category-imagensonido-consolas": {
+    "props": {
+      "id": "menu-item-category-imagensonido-consolas",
+      "type": "category",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {        
+        "categoryId": 4,         
+        "tagTitle": "Consolas",
+        "text": "Consolas"
+      }
+    }
+  },
+
+  "menu-item#category-imagensonido-hometheaters": {
+    "props": {
+      "id": "menu-item-category-imagensonido-hometheaters",
+      "type": "category",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {        
+        "categoryId": 5,         
+        "tagTitle": "Home Theaters",
+        "text": "Home Theaters"
+      }
+    }
+  },
+
+  "menu-item#category-imagensonido-smarttv": {
+    "props": {
+      "id": "menu-item-category-imagensonido-smarttv",
+      "type": "category",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {        
+        "categoryId": 6,         
+        "tagTitle": "Smart TV",
+        "text": "Smart TV"
+      }
+    }
+  },
+
+  "menu-item#category-imagensonido-grabadores": {
+    "props": {
+      "id": "menu-item-category-imagensonido-grabadores",
+      "type": "category",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {        
+        "categoryId": 7,         
+        "tagTitle": "Grabadores",
+        "text": "Grabadores"
+      }
+    }
+  },
+
+  "menu-item#category-imagensonido-soportestv": {
+    "props": {
+      "id": "menu-item-category-imagensonido-soportestv",
+      "type": "category",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {        
+        "categoryId": 8,         
+        "tagTitle": "Soportes TV",
+        "text": "Soportes TV"
+      }
+    }
+  },
+
+  "menu-item#category-imagensonido-tvledlcd": {
+    "props": {
+      "id": "menu-item-category-imagensonido-tvledlcd",
+      "type": "category",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {        
+        "categoryId": 10,         
+        "tagTitle": "TV LED y LCD",
+        "text": "TV LED y LCD"
+      }
+    }
+  }
+
+
+
+  }

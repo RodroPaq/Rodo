@@ -1,0 +1,70 @@
+{
+  "store.custom#trabaja-en-rodo": {
+    "blocks": [
+      "responsive-layout.desktop#trabaja-en-rodo",
+      "responsive-layout.mobile#trabaja-en-rodo"
+    ]
+  },
+
+  "responsive-layout.desktop#trabaja-en-rodo": {
+    "children": [            
+      "flex-layout.row#container-trabaja-en-rodo"  
+    ]
+  },
+
+  "responsive-layout.mobile#trabaja-en-rodo": {
+    "children": [            
+      "flex-layout.row#container-trabaja-en-rodo" 
+    ]
+  },
+
+  "flex-layout.row#container-trabaja-en-rodo" :{
+    "children": [
+      "flex-layout.col#left-trabaja-en-rodo",
+      "flex-layout.col#right-trabaja-en-rodo"
+    ]
+  },
+
+
+  "flex-layout.col#left-trabaja-en-rodo":{
+    "children": [
+      "rich-text#text-trabaja-en-rodo-title",
+      "rich-text#text-trabaja-en-rodo-body"
+    ],
+    "props":{
+      "textPosition":"TOP"
+    }
+  },
+
+
+  "rich-text#text-trabaja-en-rodo-title": {
+    "props": {
+      "text":
+      "### TRABAJÁ CON NOSOTROS",
+      "blockClass": "title",
+      "textAlignment": "LEFT"
+    }
+  },
+
+  "rich-text#text-trabaja-en-rodo-body": {
+    "props": {
+      "text":
+      "Si tenes conocimientos y Aptitudes en Ventas de Salon, Venta Telefonica, Sector Comercial, Administrativo, Cajas y queres ser parte de nuestro staff, envianos tu cv a personal@rodo.com.ar.",      
+      "textPosition": "TOP"    
+    }
+  },
+
+  "flex-layout.col#right-trabaja-en-rodo":{
+    "children": [
+      "image#image-trabaja-en-rodo"
+    ]
+  },
+
+  "image#image-trabaja-en-rodo": {
+    "props": {
+      "src": "https://rodo.com.ar/media/wysiwyg/rodo-trabaja-nosotros.jpg",
+      "maxWidth": "660px",
+      "blockClass": "storePrint"
+    }
+  }
+}

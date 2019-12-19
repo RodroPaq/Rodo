@@ -1,0 +1,195 @@
+{
+  "store.home": {
+    "blocks": [
+      "carousel#home",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "flex-layout.row#deals",
+      "flex-layout.row#heladeras",
+      "flex-layout.row#televisores",
+      "flex-layout.row#equipa"
+    ]
+  },
+  
+  "carousel#home": {
+    "props": {
+      "autoplay": true,
+      "banners": [
+        {
+          "image": "https://rodo.com.ar/media/wysiwyg/Slider-Navidad-12cuotas.jpg",
+          "mobileImage": "https://rodo.com.ar/media/wysiwyg/Slider-Navidad-12cuotas.jpg"
+        },
+        {
+          "image": "https://rodo.com.ar/media/wysiwyg/NUEVA-IMPRESORA-HP.jpg",
+          "mobileImage": "https://rodo.com.ar/media/wysiwyg/NUEVA-IMPRESORA-HP.jpg"
+        },
+        {
+          "image": "https://rodo.com.ar/media/wysiwyg/Slider-Black-Friday-GAMA-fi.jpg",
+          "mobileImage": "https://rodo.com.ar/media/wysiwyg/Slider-Black-Friday-GAMA-fi.jpg"
+        }
+      ],
+      "width": 1350,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+
+
+
+  "flex-layout.row#heladeras": {
+    "children": [
+      "flex-layout.col#infoheladeras",      
+      "flex-layout.col#shelfheladeras"
+    ],
+    "props":{
+      "textAlignment":"center"      
+    }
+  },
+  "info-card#heladeras":{
+    "props":{
+      "isFullModeStyle": true,      
+      "imageUrl": "https://rodo.com.ar/media/catalog/category/coleccion/TEMPLATE_IMAGEN-DE-CATEGORIA-HELADERAS-PREMIUM.jpg",
+      "headline": "HELADERAS DE GRAN CAPACIDAD",
+      "subhead": "10 NOVEDADES",
+      "callToActionMode": "button",
+      "callToActionText": "Ver Todos",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "blockclass": "bloqueIndex"            
+    }
+  },
+  "flex-layout.col#infoheladeras":{
+    "children":[
+      "info-card#heladeras"
+    ],
+    "props":{
+      "width":"25%"
+    }
+  },
+  "flex-layout.col#shelfheladeras":{
+    "children":[
+      "shelf#homeheladeras"
+    ],
+    "props":{
+      "blockclass":"vitriniaIdex"
+    }
+  },
+
+  "shelf#homeheladeras": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "category":"3",        
+      "skusFilter": "ALL_AVAILABLE",
+      "paginationDotsVisibility":false,
+      "productList": {
+        "maxItems": 3,
+        "showTitle":false        
+      }
+    }
+  },
+
+
+
+
+  "flex-layout.row#televisores": {
+    "children": [
+      "flex-layout.col#shelftelevisores",
+      "flex-layout.col#infotelevisores"           
+    ]
+  },
+  "info-card#televisores":{
+    "props":{
+      "isFullModeStyle": true,      
+      "imageUrl": "https://rodo.com.ar/media/catalog/category/coleccion/Mira-a-lo-Grande_1.jpg",
+      "headline": "MIRÁ A LO GRANDE",
+      "subhead": "2 NOVEDADES",
+      "callToActionMode": "button",
+      "callToActionText": "Ver Todos",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "blockclass": "bloqueIndex"      
+    }
+  },
+  "flex-layout.col#infotelevisores":{
+    "children":[
+      "info-card#televisores"
+    ],
+    "props":{
+      "width":"25%"
+    }
+  },
+  "flex-layout.col#shelftelevisores":{
+    "children":[
+      "shelf#hometelevisores"
+    ]
+  },
+
+  "shelf#hometelevisores": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "category":"3",        
+      "skusFilter": "ALL_AVAILABLE",
+      "paginationDotsVisibility":false,
+      "productList": {
+        "maxItems": 3,
+        "showTitle":false        
+      }
+    }
+  },
+
+
+
+  "flex-layout.row#equipa": {
+    "children": [
+      "flex-layout.col#infoequipa",
+      "flex-layout.col#shelfequipa"                 
+    ]
+  },
+  "info-card#equipa":{
+    "props":{
+      "isFullModeStyle": true,      
+      "imageUrl": "https://rodo.com.ar/media/catalog/category/coleccion/Equipa-tu-casa.jpg",
+      "headline": "EQUIPA TU CASA",
+      "subhead": "6 NOVEDADES",
+      "callToActionMode": "button",
+      "callToActionText": "Ver Todos",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "blockclass": "bloqueIndex"      
+    }
+  },
+  "flex-layout.col#infoequipa":{
+    "children":[
+      "info-card#equipa"
+    ],
+    "props":{
+      "width":"25%"
+    }
+  },
+  "flex-layout.col#shelfequipa":{
+    "children":[
+      "shelf#hometelevisores"
+    ]
+  },
+
+  "shelf#homeequipa": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "category":"3",        
+      "skusFilter": "ALL_AVAILABLE",
+      "paginationDotsVisibility":false,
+      "productList": {
+        "maxItems": 3,
+        "showTitle":false        
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+}

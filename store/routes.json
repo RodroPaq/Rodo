@@ -1,0 +1,15 @@
+{
+  
+  "store.custom#ventas-corporativas": {
+    "path": "/ventas-corporativas"
+  },
+  "store.custom#quienes-somos": {
+    "path": "/quienes-somos"
+  },
+  "store.custom#trabaja-en-rodo": {
+    "path": "/trabaja-en-rodo"
+  },
+  "store.custom#garantias": {
+    "path": "/garantias"
+  }
+}

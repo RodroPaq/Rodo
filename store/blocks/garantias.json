@@ -1,0 +1,222 @@
+{
+  "store.custom#garantias": {
+    "blocks": [
+      "responsive-layout.desktop#garantias",
+      "responsive-layout.mobile#garantias"
+    ]
+  },
+
+  "responsive-layout.desktop#garantias": {
+    "children": [
+      "flex-layout.row#garantias-title",
+      "flex-layout.row#garantias-logo",
+      "flex-layout.row#garantias-body"
+    ]
+  },
+
+  "responsive-layout.mobile#garantias": {
+    "children": [
+      "flex-layout.row#garantias-title",
+      "flex-layout.row#garantias-logo",
+      "flex-layout.row#garantias-body"
+    ]
+  },
+
+
+
+  "flex-layout.row#garantias-title":{
+    "children": [
+      "rich-text#text-garantias-title"
+    ]
+  },
+
+
+  "rich-text#text-garantias-title": {
+    "props": {
+      "text":
+      "### GARANTIAS",
+      "blockClass": "title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER" 
+    }
+  },
+
+  "flex-layout.row#garantias-logo":{
+    "children": [
+      "image#image-garantias-logo"
+    ]
+  },
+
+  "image#image-garantias-logo": {
+    "props": {
+      "src": "https://rodo.com.ar/media/wysiwyg/logo-rodo_1.jpg",
+      "maxWidth": "300px",
+      "blockClass": "storePrint"
+    }
+  },
+
+
+  "flex-layout.row#garantias-body":{
+    "children": [           
+      "flex-layout.col#container-proteccion-rodo"      
+    ],
+    "props":{
+      "textPosition":"TOP"
+    }
+  },
+
+  "rich-text#text-garantias-body-proteccion-rodo-title": {
+    "props": {
+      "text":
+      " ##### PROTECCIÓN RODO",
+      "blockClass": "title",      
+      "textAlignment": "LEFT"
+    }
+  },
+
+
+  "flex-layout.col#container-proteccion-rodo":{
+    "children": [
+      "rich-text#text-garantias-body-proteccion-rodo-title",
+      "rich-text#text-garantias-body-que-proteccion-rodo-q",
+      "rich-text#text-garantias-body-que-proteccion-rodo-r",
+      "rich-text#text-garantias-body-cobertura-proteccion-rodo-q",
+      "rich-text#text-garantias-body-cobertura-proteccion-rodo-r",
+      "rich-text#text-garantias-body-comienza-proteccion-rodo-q",
+      "rich-text#text-garantias-body-comienza-proteccion-rodo-r",
+      "rich-text#text-garantias-body-comprado-proteccion-rodo-q",
+      "rich-text#text-garantias-body-comprado-proteccion-rodo-r",
+      "rich-text#text-garantias-body-siniestro-q",
+      "rich-text#text-garantias-body-siniestro-r",
+      "rich-text#text-garantias-body-documentacion-q",
+      "rich-text#text-garantias-body-documentacion-r",
+      "rich-text#text-garantias-body-exclusiones-q",
+      "rich-text#text-garantias-body-exclusiones-r"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#text-garantias-body-que-proteccion-rodo-q": {
+    "props": {
+      "text":
+      " ##### ¿Qué es la Protección RODO?",
+      "blockClass": "title",      
+      "textAlignment": "LEFT"
+    }
+  },
+
+  "rich-text#text-garantias-body-que-proteccion-rodo-r": {
+    "props": {
+      "text":
+      "Protección RODO es un servicio con cargo adicional que permite prolongar hasta 4 años adicionales la garantía de fábrica, en las mismas condiciones, con el fin de proteger el producto comprado.",
+    
+      "textAlignment": "LEFT"
+    }
+  },
+
+  "rich-text#text-garantias-body-cobertura-proteccion-rodo-q": {
+    "props": {
+      "text":
+      " ##### ¿Qué cobertura ofrece la Protección RODO?",
+      "blockClass": "title",      
+      "textAlignment": "LEFT"
+    }
+  },
+
+  "rich-text#text-garantias-body-cobertura-proteccion-rodo-r": {
+    "props": {
+      "text":
+      "- Atención telefónica inmediata. \n- Reparación por mal funcionamiento del producto en un 100%, sin límites, con las mismas condiciones de la Garantía de Fábrica, con costo cero de mano de obra, repuestos y fletes. \n- Cobertura por Daño Accidental o Robo durante los primeros 30 días posteriores a la fecha de compra (hasta la suma máxima de $20.000) \n- En caso de remplazar el producto en cualquier circunstancia se hará por otro igual o de características similares existen en plaza.",     
+      "textAlignment": "LEFT"
+    }
+  },
+
+  "rich-text#text-garantias-body-comienza-proteccion-rodo-q": {
+    "props": {
+      "text":
+      " ##### ¿Desde cuándo comienza\n a regir la Protección RODO?",    
+      "textAlignment": "LEFT"
+    }
+  },
+
+  "rich-text#text-garantias-body-comienza-proteccion-rodo-r": {
+    "props": {
+      "text":
+      "La cobertura de extensión de garantía (fallas) comienza al día siguiente de finalizada la Garantía del Fabricante y se puede prolongar hasta 4 años (48 meses) adicionales según el producto comprado \nLa cobertura de Daño Accidental y Robo tiene vigencia desde la fecha de compra del producto (si adquirió la Protección al mismo momento de la compra del mismo) hasta los 30 días corridos posteriores. ",    
+      "textAlignment": "LEFT"
+    }
+  }
+  ,
+
+  "rich-text#text-garantias-body-comprado-proteccion-rodo-q": {
+    "props": {
+      "text":
+      " ##### ¿Puedo adquirir la cobertura después de haber comprado el producto?",
+      "blockClass": "title",    
+      "textAlignment": "LEFT"
+    }
+  },
+
+  "rich-text#text-garantias-body-comprado-proteccion-rodo-r": {
+    "props": {
+      "text":
+      "Sí, siempre que el producto se encuentre en el período de hasta 90 días antes de la finalización de su Garantía de Fábrica. ",           
+      "textAlignment": "LEFT"
+    }
+  }
+  ,
+
+  "rich-text#text-garantias-body-siniestro-q": {
+    "props": {
+      "text":
+      " ##### ¿Qué debo hacer ante un siniestro?",
+      "blockClass": "title",    
+      "textAlignment": "LEFT"
+    }
+  },
+
+  "rich-text#text-garantias-body-siniestro-r": {
+    "props": {
+      "text":
+      "Una llamada gratuita al **0800-333-1433** le permitirá iniciar su reclamo. \n Funciona desde las 06:00 hasta las 00:00 Hs, todos los días de la semana.",           
+      "textAlignment": "LEFT"
+    }
+  },
+
+    "rich-text#text-garantias-body-documentacion-q": {
+      "props": {
+        "text":
+        " ##### ¿Cuál es la documentación que debo presentar?",
+        "blockClass": "title",    
+        "textAlignment": "LEFT"
+      }
+    },
+  
+    "rich-text#text-garantias-body-documentacion-r": {
+      "props": {
+        "text":
+        "Es requisito contar con el certificado y factura de compra para poder facilitarle al operador sus datos de compra y producto. \n Ante el robo del producto requeriremos, además, la denuncia policial. \n Si el producto robado es un celular, se le solicitará comprobante de gestión realizada ante su compañía telefónica, por ejemplo: suspensión o baja de línea y baja de IMEI.",           
+        "textAlignment": "LEFT"
+      }
+    }
+    ,
+
+    "rich-text#text-garantias-body-exclusiones-q": {
+      "props": {
+        "text":
+        " ##### Principales Exclusiones",
+        "blockClass": "title",    
+        "textAlignment": "LEFT"
+      }
+    },
+  
+    "rich-text#text-garantias-body-exclusiones-r": {
+      "props": {
+        "text":
+        "- Robo y roturas por accidente que afecten el normal funcionamiento una vez superados los primeros 90 días.\n- Daños estéticos o daños causados por mal uso o uso indebido.\n-Uso comercial / no doméstico.\n-Desgaste normal del equipo, depreciación.\n-Sobretensión, problemas en suministro eléctrico o de gas, problemas en la línea telefónica. \n-Gastos de mantenimiento.\n-Reparaciones efectuadas por personal no autorizado.\n-El uso de piezas no autorizadas o contrariando las instrucciones del fabricante.\n-Pérdida de datos en PC’s, programas y/o software.\n-Programas y/o software.\n-Daños por incendio, vandalismo, oxidación, daños derivados de la naturaleza, como lluvia, granizo, derrame de líquidos. \n\n\nAnte cualquier duda o sugerencia usted puede contactarse vía e-mail a **clientes@rodo.com.ar** y también telefónicamente al **4127-9982**.",           
+        "textAlignment": "LEFT"
+      }
+    }
+}

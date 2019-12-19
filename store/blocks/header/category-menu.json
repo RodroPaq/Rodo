@@ -1,0 +1,14 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#category-imagensonido",
+      "menu-item#category-informatica",
+      "menu-item#category-electrohogar",
+      "menu-item#category-pequenoselectro"
+    ]
+  }
+
+
+  
+
+}

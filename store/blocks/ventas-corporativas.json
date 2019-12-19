@@ -1,0 +1,72 @@
+{
+  "store.custom#ventas-corporativas": {
+    "blocks": [
+      "responsive-layout.desktop#ventas-corporativas",
+      "responsive-layout.mobile#ventas-corporativas"
+    ]
+  },
+
+  "responsive-layout.desktop#ventas-corporativas": {
+    "children": [            
+      "flex-layout.row#text-ventas-corporativas",
+      "flex-layout.row#image-ventas-corporativas",
+      "flex-layout.row#image-ventas-corporativas-contactenos"      
+    ]
+  },
+
+  "responsive-layout.mobile#ventas-corporativas": {
+    "children": [            
+      "flex-layout.row#text-ventas-corporativas",
+      "flex-layout.row#image-ventas-corporativas",
+      "flex-layout.row#image-ventas-corporativas-contactenos"    
+    ]
+  },
+
+
+  "flex-layout.row#text-ventas-corporativas": {
+    "children": [
+      "rich-text#text-ventas-corporativas"
+    ],
+    "props": {
+      "blockclass": "titlePage",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#text-ventas-corporativas": {
+    "props": {
+      "text":
+      "# - VENTAS CORPORATIVAS Y AL POR MAYOR -",
+      "blockClass": "title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"    
+    }
+  },
+
+  "flex-layout.row#image-ventas-corporativas": {
+    "children": [
+      "image#text-ventas-corporativas"
+    ]
+  },
+
+  "flex-layout.row#image-ventas-corporativas-contactenos": {
+    "children": [
+      "image#text-ventas-corporativas-contactenos"
+    ]
+  },
+
+  "image#text-ventas-corporativas": {
+    "props": {
+      "src": "https://rodo.com.ar/media/wysiwyg/Regalos-corp-pag1_1.jpg",
+      "maxWidth": "1350px",
+      "blockClass": "storePrint"
+    }
+  },
+  "image#text-ventas-corporativas-contactenos": {
+    "props": {
+      "src": "https://rodo.com.ar/media/wysiwyg/Regalo-corp-pag2_1.jpg",
+      "maxWidth": "1350px",
+      "blockClass": "storePrint"
+    }
+  }
+}

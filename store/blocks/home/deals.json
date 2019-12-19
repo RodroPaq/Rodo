@@ -1,0 +1,58 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "children": [
+      "image#deal1"      
+    ]
+  },
+  "image#deal1": {
+    "props": {
+      "src": "https://rodo.com.ar/media/wysiwyg/banner1.png"      
+    }
+  },  
+
+  "flex-layout.col#deals2": {
+    "children": [
+      "image#deal2"      
+    ]
+  },
+  "image#deal2": {
+    "props": {
+      "src": "https://rodo.com.ar/media/wysiwyg/BANNER_METODOS_DE_PAGO.png"      
+    }
+  },
+  
+
+  "flex-layout.col#deals3": {
+    "children": [
+      "image#deal3"
+    ]
+  },
+  "image#deal3": {
+    "props": {
+      "src": "https://rodo.com.ar/media/wysiwyg/BANNER_3_RETIRO_2.jpg"
+    }
+  },
+  
+  "flex-layout.col#deals4": {
+    "children": [
+      "image#deal4"
+    ]
+  },
+  "image#deal4": {
+    "props": {
+      "src": "https://rodo.com.ar/media/wysiwyg/banner4.png"
+    }
+  }  
+}

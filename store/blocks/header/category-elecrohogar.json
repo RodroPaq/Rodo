@@ -1,0 +1,82 @@
+{
+    "menu-item#category-electrohogar": {
+      "props": {
+        "id": "menu-item-category-electrohogar",
+        "type": "category",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "categoryId": 1,
+          "noFollow": true,
+          "tagTitle": "Electro - Hogar",
+          "text": "Electro - Hogar"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#category-electrohogar"
+      ]
+    },
+  
+    "vtex.menu@2.x:submenu#category-electrohogar": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-electrohogar"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-electrohogar": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [        
+        "menu-item#category-electrohogar-heladeras",
+        "menu-item#category-electrohogar-hornos",
+        "menu-item#category-electrohogar-lavarropas"
+      ]
+    },
+  
+    "menu-item#category-electrohogar-heladeras": {
+      "props": {
+        "id": "menu-item-category-electrohogar-heladeras",
+        "type": "category",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {        
+          "categoryId": 4,         
+          "tagTitle": "Heladeras",
+          "text": "Heladeras"
+        }
+      }
+    },
+  
+    "menu-item#category-electrohogar-hornos": {
+      "props": {
+        "id": "menu-item-category-electrohogar-hornos",
+        "type": "category",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {        
+          "categoryId": 5,         
+          "tagTitle": "Hornos",
+          "text": "Hornos"
+        }
+      }
+    },
+  
+    "menu-item#category-electrohogar-lavarropas": {
+      "props": {
+        "id": "menu-item-category-electrohogar-lavarropas",
+        "type": "category",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {        
+          "categoryId": 6,         
+          "tagTitle": "Lavarropas",
+          "text": "Lavarropas"
+        }
+      }
+    }
+  
+    }

@@ -1,0 +1,182 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "info-card#garantia",
+      "flex-layout.row#description",      
+      "shelf.relatedProducts",
+      "product-reviews",
+      "product-questions-and-answers",
+      "shelf#relacionados"
+    ]
+  },
+  "flex-layout.row#garantia":{
+    "children": [
+      "info-card#garantia"
+    ]
+  },
+  "image#garantia": {
+    "props": {
+      "src": "https://rodo.com.ar/media/wysiwyg/banner-detalle-garantia.jpg",
+      "maxHeight": 173
+    }
+  },
+
+  "info-card#garantia": {
+    "props": {
+      "id": "info-card-garantia",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://rodo.com.ar/media/wysiwyg/banner-detalle-garantia.jpg",
+      "maxHeight": 173,            
+      "callToActionMode": "none",
+      "blockClass": "info-card-garantia",
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": [      
+      "flex-layout.row#product-description"
+    ]
+  },
+
+  "flex-layout.row#product-description":{
+    "children": ["flex-layout.col#product-description-left", "flex-layout.col#product-description-right"]
+  },
+
+  "flex-layout.col#product-description-left":{
+    "children": ["product-description"]
+  },
+  "flex-layout.col#product-description-right":{
+    "children": ["image#garantiabig"]
+  },
+  "image#garantiabig": {
+    "props": {
+      "src": "https://rodo.com.ar/media/wysiwyg/Banner_Relleno_Peque_os-NUEVO-01.png",
+      "maxHeight": 528
+    }
+  },
+
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+  },
+
+  "stack-layout": {
+    "children": [
+      "flex-layout.row#product-image",
+      "product-specification-badges"
+    ]
+  },
+
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+
+  "flex-layout.col#stack": {
+    "children": ["stack-layout"],
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    }
+  },
+  "flex-layout.row#product-image": {
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true,
+      "thumbnailsOrientation":"horizontal"
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "product-name",
+      "product-rating-summary",
+      "product-price#product-details",      
+      "product-identifier.product",      
+      "product-assembly-options",
+      "flex-layout.row#buy-button",
+      "availability-subscriber",      
+      "share#default"
+    ]
+  },
+
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3
+    }
+  },
+
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": ["buy-button#innerProduct"]
+  },
+  "buy-button#innerProduct":{
+    "props": {
+      "blockClass":"innerBuy"
+    }
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  },
+
+  "shelf#relacionados": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "category":"3",        
+      "skusFilter": "ALL_AVAILABLE",
+      "paginationDotsVisibility":false,
+      "productList": {
+        "maxItems": 3,
+        "showTitle":false        
+      }
+    }
+  }
+
+
+}

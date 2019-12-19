@@ -1,0 +1,29 @@
+.headerRow--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.headerRow--main-header .headerRowBackground {
+  background-color: #F0F0F0;
+  margin-top: 20px;
+}
+
+.headerRow--main-header-menu .headerRowBackground {
+  background-color: #f03b3b;
+  margin: 15px 0 20px 0;
+  color:white;
+}
+
+.headerRow--main-header :global(.vtex-menu-2-x-styledLink)  {
+  color: #727273;
+  font-size: 14px;
+}
+
+.headerRow--main-header-mobile .headerRowBackground {
+  padding: 10px 0px;
+  background-color: #F0F0F0;
+}
+
+.bloqueIndex{
+  color: red;
+}

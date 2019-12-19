@@ -1,0 +1,61 @@
+{
+  "store.custom#quienes-somos": {
+    "blocks": [
+      "responsive-layout.desktop#quienes-somos",
+      "responsive-layout.mobile#quienes-somos"
+    ]
+  },
+
+  "responsive-layout.desktop#quienes-somos": {
+    "children": [            
+      "flex-layout.row#text-quienes-somos-container-Title",   
+      "flex-layout.row#text-quienes-somos-container-Body"
+    ]
+  },
+
+  "responsive-layout.mobile#quienes-somos": {
+    "children": [            
+      "flex-layout.row#text-quienes-somos-container-Title",
+      "flex-layout.row#text-quienes-somos-container-Body"
+    ]
+  },
+
+
+  "flex-layout.row#text-quienes-somos-container-Title": {
+    "children": [
+      "rich-text#text-quienes-somos-title"
+    ],
+    "props": {
+      "blockclass": "titlePage",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.row#text-quienes-somos-container-Body": {
+    "children": [
+      "rich-text#text-quienes-somos-body"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#text-quienes-somos-title": {
+    "props": {
+      "text":
+      "# QUIENES SOMOS",
+      "blockClass": "title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"    
+    }
+  },
+
+  "rich-text#text-quienes-somos-body": {
+    "props": {
+      "text":
+      "**Primer y único hipermercado de artículos para el hogar del país.** \n\n En nuestros amplios locales usted podrá encontrar la mayor exhibición de heladeras, lavarropas, cocinas, LCD, televisores, equipos de audio...y todo lo que pueda imaginarse.\n\n La disponibilidad de esta amplia gama de productos es inmediata ya que contamos con el stock más grande del país.\n\n Como verá, le estamos dando la bienvenida al lugar ideal para su próxima compra, porque poder elegir entre una gran variedad y encontrar el producto justo es lo que siempre soñó. \n\n Ah!!! Y además siempre tenemos el mejor precio. ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"    
+    }
+  }
+}

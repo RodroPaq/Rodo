@@ -1,0 +1,208 @@
+{
+  
+  
+
+  "vtex.menu@2.x:menu#footer-decoration": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#quienes-somos",
+      "menu-item#ventas-corporativas",
+      "menu-item#trabaja-en-rodo"
+    ]
+  },
+
+  "menu-item#quienes-somos": {
+    "props": {
+      "id": "menu-item-quienes-somos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quienes-somos",
+        "noFollow": true,
+        "tagTitle": "Quienes somos",
+        "text": "Quienes somos"
+      }
+    }
+  },
+
+  "menu-item#ventas-corporativas": {
+    "props": {
+      "id": "menu-item-ventas-corporativas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ventas-corporativas",
+        "noFollow": true,
+        "tagTitle": "Ventas corporativas",
+        "text": "Ventas corporativas"
+      }
+    }
+  },
+
+  "menu-item#trabaja-en-rodo": {
+    "props": {
+      "id": "menu-item-trabaja-en-rodo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabaja-en-rodo",
+        "noFollow": true,
+        "tagTitle": "Trabajá en Rodo",
+        "text": "Trabajá en Rodo"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-bags": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#garantias"
+    ]
+  },
+
+  "menu-item#garantias": {
+    "props": {
+      "id": "menu-item-garantias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/garantias",
+        "noFollow": true,
+        "tagTitle": "Garantías",
+        "text": "Garantías"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#footer-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#imagen-sonido-footer",
+      "menu-item#informatica-footer",
+      "menu-item#electro-hogar-footer",
+      "menu-item#pequenos-electro-footer"      
+    ]
+  },
+
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#imagen-sonido-footer",
+      "menu-item#informatica-footer",
+      "menu-item#electro-hogar-footer",
+      "menu-item#pequenos-electro-footer"      
+    ]
+  },
+
+  "menu-item#informatica-footer": {
+    "props": {
+      "id": "menu-item-informatica-footer",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryId": 11,
+        "noFollow": true,
+        "tagTitle": "Informatica",
+        "text": "Informatica"
+      }
+    }
+  },
+
+  "menu-item#imagen-sonido-footer": {
+    "props": {
+      "id": "menu-item-imagen-sonido-footer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/imagensonido/",
+        "noFollow": true,
+        "tagTitle": "Imagen y Sonido",
+        "text": "Imagen y Sonido"
+      }
+    }
+  },
+
+
+  "menu-item#electro-hogar-footer": {
+    "props": {
+      "id": "menu-item-electro-hogar-footer",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryId": 1,
+        "noFollow": true,
+        "tagTitle": "Electro - Hogar",
+        "text": "Electro - Hogar"
+      }
+    }
+  },
+
+
+  "menu-item#pequenos-electro-footer": {
+    "props": {
+      "id": "menu-item-pequenos-electro-footer",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryId": 2,
+        "noFollow": true,
+        "tagTitle": "Pequeños - Electro",
+        "text": "Pequeños - Electro"
+      }
+    }
+  },
+
+  
+
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Decoration",
+        "text": "Decoration"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#quienes-somos",
+      "menu-item#ventas-corporativas",
+      "menu-item#trabaja-en-rodo"
+    ]
+  }
+
+
+}

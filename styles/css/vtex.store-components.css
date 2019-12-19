@@ -1,0 +1,136 @@
+.notificationBarContainer {
+  background-color: #E6F1E6;
+  color: #03034E;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.searchBarContainer {
+  max-width: 500px;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 20px auto;
+  background-color: #E6F1E6;
+  padding: 0px;
+  height: 400px;
+}
+
+.infoCardContainer{
+  height: 300px;
+  margin: 0 auto;
+}
+
+.infoCardTextContainer{
+  margin: 0 auto;
+}
+
+.slide{
+  background-color: red;
+}
+
+
+.infoCardHeadline{
+  color: #e50000;
+  text-shadow: 0 0 0.2em white, 0 0 0.2em white,0 0 0.2em white;
+  text-align: center;
+  font-size: 2.05rem;
+  margin: 20px 0;
+}
+
+.infoCardSubhead{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.infoCardCallActionContainer{
+  color: red;
+}
+
+.c-on-base{
+  color: red;
+}
+
+.newsletter {
+  color: gray;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 10px 10px;
+  color: gray;
+}
+.newsletter .buttonContainer div{
+  color: gray;  
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+.bg-action-primary{
+  background: #e50000;
+}
+
+
+@media only screen and (min-width: 640px) {
+ 
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}

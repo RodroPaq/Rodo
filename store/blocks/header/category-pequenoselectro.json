@@ -1,0 +1,88 @@
+{
+    "menu-item#category-pequenoselectro": {
+      "props": {
+        "id": "menu-item-category-pequenoselectro",
+        "type": "category",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "categoryId": 2,
+          "noFollow": true,
+          "tagTitle": "Pequeños - Electro",
+          "text": "Pequeños - Electro"          
+        },
+        "iconProps": {
+          "id": "https://rodo.com.ar/skin/frontend/rodo/rodo/images/logo.png",
+          "size": 16,
+          "viewBox": "0 0 16 16",
+          "activeClassName": "rebel-pink",
+          "mutedClassName": "c-action-primary"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#category-pequenoselectro"
+      ]
+    },
+  
+    "vtex.menu@2.x:submenu#category-pequenoselectro": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-pequenoselectro"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-pequenoselectro": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [        
+        "menu-item#category-pequenoselectro-batidoras",
+        "menu-item#category-pequenoselectro-cafeteras",
+        "menu-item#category-pequenoselectro-tostadoras"
+      ]
+    },
+  
+    "menu-item#category-pequenoselectro-batidoras": {
+      "props": {
+        "id": "menu-item-category-pequenoselectro-batidoras",
+        "type": "category",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {        
+          "categoryId": 7,         
+          "tagTitle": "Batidoras",
+          "text": "Batidoras"
+        }
+      }
+    },
+  
+    "menu-item#category-pequenoselectro-cafeteras": {
+      "props": {
+        "id": "menu-item-category-pequenoselectro-cafeteras",
+        "type": "category",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {        
+          "categoryId": 9,         
+          "tagTitle": "Cafeteras",
+          "text": "Cafeteras"
+        }
+      }
+    },
+  
+    "menu-item#category-pequenoselectro-tostadoras": {
+      "props": {
+        "id": "menu-item-category-pequenoselectro-tostadoras",
+        "type": "category",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {        
+          "categoryId": 8,         
+          "tagTitle": "Tostadoras",
+          "text": "Tostadoras"
+        }
+      }
+    }
+    }
